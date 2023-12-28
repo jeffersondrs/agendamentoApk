@@ -11,13 +11,13 @@ export default function EditProfile() {
         style={styles.butonStyle}
         onPress={() => navigation.navigate("Home")}
       >
-        <Text style={{ color: "white", fontSize: 20 }}>Home</Text>
+        <Text style={{ color: "black", fontSize: 20 }}>Home</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.butonStyle}
         onPress={() => navigation.navigate("EditProfile")}
       >
-        <Text style={{ color: "white", fontSize: 20 }}>Editar perfil</Text>
+        <Text style={{ color: "black", fontSize: 20 }}>Editar perfil</Text>
       </TouchableOpacity>
     </View>
   );
@@ -26,18 +26,18 @@ export default function EditProfile() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#a00",
+    backgroundColor: "#ffff",
     alignItems: "center",
     justifyContent: "center",
   },
   textStyle: {
-    color: "white",
+    color: "black",
     fontSize: 20,
     fontWeight: "bold",
     padding: 10,
   },
   butonStyle: {
-    backgroundColor: "#4c22dc",
+    backgroundColor: "#f5f5f5",
     borderRadius: 10,
     display: "flex",
     alignItems: "center",

@@ -24,12 +24,12 @@ export default function Home() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#23ed",
+    backgroundColor: "#ffffff",
     alignItems: "center",
     justifyContent: "center",
   },
   textStyle: {
-    color: "white",
+    color: "black",
     fontSize: 30,
     textAlign: "center",
     fontWeight: "bold",
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     textShadowRadius: 5,
   },
   headerHome: {
-    backgroundColor: "#23ed",
+    backgroundColor: "#f2f2f2",
     borderRadius: 20,
     height: 250,
     width: 400,
@@ -47,7 +47,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   butonStyle: {
-    backgroundColor: "#4c22dc",
+    backgroundColor: "#f3f3f3",
     borderRadius: 10,
     display: "flex",
     alignItems: "center",

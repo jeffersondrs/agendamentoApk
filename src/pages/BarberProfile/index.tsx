@@ -11,13 +11,13 @@ export default function BarberProfile() {
         style={styles.butonStyle}
         onPress={() => navigation.navigate("Home")}
       >
-        <Text style={{ color: "white", fontSize: 20 }}>Home</Text>
+        <Text style={{ color: "black", fontSize: 20 }}>Home</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.butonStyle}
         onPress={() => navigation.navigate("User")}
       >
-        <Text style={{ color: "white", fontSize: 20 }}>Perfil User</Text>
+        <Text style={{ color: "black", fontSize: 20 }}>Perfil User</Text>
       </TouchableOpacity>
     </View>
   );
@@ -26,18 +26,18 @@ export default function BarberProfile() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#00000f",
+    backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
   },
   textStyle: {
-    color: "white",
+    color: "black",
     fontSize: 20,
     fontWeight: "bold",
     padding: 10,
   },
   butonStyle: {
-    backgroundColor: "#4c22dc",
+    backgroundColor: "#f6f6f6",
     borderRadius: 10,
     display: "flex",
     alignItems: "center",

@@ -16,7 +16,7 @@ const JWT =
   "khjfsdahpe5klh23415hionasfd89yj8y903241hu1234hho4123134lkjjl143jlç4132çljk2";
 
 export function AuthProvider({ children }: AuthProviderProps) {
-  const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
+  const [isAuthenticated, setIsAuthenticated] = useState<boolean>(true);
 
   const handleSignin = async (email: string, password: string) => {
     try {

@@ -11,13 +11,13 @@ export default function UserProfile() {
         style={styles.butonStyle}
         onPress={() => navigation.navigate("Home")}
       >
-        <Text style={{ color: "white", fontSize: 20 }}>Profile barbeiro</Text>
+        <Text style={{ color: "black", fontSize: 20 }}>Profile barbeiro</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.butonStyle}
         onPress={() => navigation.navigate("EditProfile")}
       >
-        <Text style={{ color: "white", fontSize: 20 }}>Profile barbeiro</Text>
+        <Text style={{ color: "black", fontSize: 20 }}>Profile barbeiro</Text>
       </TouchableOpacity>
     </View>
   );
@@ -26,18 +26,18 @@ export default function UserProfile() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#4c00ff",
+    backgroundColor: "#ffffff",
     alignItems: "center",
     justifyContent: "center",
   },
   textStyle: {
-    color: "white",
+    color: "black",
     fontSize: 20,
     fontWeight: "bold",
     padding: 10,
   },
   butonStyle: {
-    backgroundColor: "#4c22dc",
+    backgroundColor: "#f2f2f2",
     borderRadius: 10,
     display: "flex",
     alignItems: "center",
